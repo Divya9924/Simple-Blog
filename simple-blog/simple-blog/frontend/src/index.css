@@ -1,0 +1,25 @@
+/* frontend/src/index.css */
+
+/* Apply global styles to html and body for full page background */
+html, body {
+  /* Ensure html and body take up full height and width */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrollbar if not needed */
+
+  /* Apply the gradient background globally */
+  background: linear-gradient(to bottom right, #e0f2fe, #e3f2fd, #e8f5fd); /* Tailwind equivalents: from-purple-100 via-blue-100 to-indigo-100 */
+}
+
+/* Optional: Basic box-sizing reset for consistent layouts */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Ensure #root (where your React app mounts) also takes full space */
+#root {
+  height: 100%;
+  width: 100%;
+}
