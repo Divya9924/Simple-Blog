@@ -1,18 +1,5 @@
-/* frontend/src/App.css */
 
-/* This file is intentionally left mostly empty or cleared
-   because styling is primarily handled by Tailwind CSS utility classes
-   directly in App.jsx.
-
-   Any global CSS rules here might conflict with or override Tailwind's
-   intended design.
-*/
-
-/* You can keep or add very specific custom global styles here if absolutely necessary,
-   but for a clean Tailwind setup, it's usually best to keep it minimal. */
-
-/* Basic body font and background can be set here if not handled by Tailwind's base styles or global utility classes */
 body {
-  font-family: 'Inter', sans-serif; /* Ensuring Inter font is applied if not done globally */
+  font-family: 'Inter', sans-serif; 
 }
 
